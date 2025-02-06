@@ -1,0 +1,19 @@
+# This is a cheat sheet for the BlueZ tool in many Linux distros;
+
+# View Bluetooth devices on localhost;
+hciconfig
+
+# Scan for Bluetooth devices;
+hcitool scan
+
+# View additional information about Bluetooth devices in vicinity;
+hcitool inq
+
+# Service Discovery Protocol (SDP) is a Bluetooth protocol for searching for
+# services;
+sdptool browse <MAC address>
+
+# Verify whether a Bluetooth device is in reach;
+l2ping <MAC address>
+
+#
